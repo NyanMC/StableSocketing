@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "stablesocketing.refmap.json",
   "mixins": [
+    "ApothicCuriosModMixin"
   ],
   "client": [
   ],
