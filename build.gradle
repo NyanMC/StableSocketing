@@ -163,15 +163,15 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    implementation fg.deobf("top.theillusivec4.curios:curios-forge:1.19.2-5.1.4.4")
+    implementation fg.deobf("curse.maven:curios-309927:5266541")
 
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.2-77:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.2-77")
+    implementation fg.deobf("curse.maven:patchouli-306770:4966125")
 
-    implementation fg.deobf("curse.maven:placebo-283644:5180198")
+    implementation fg.deobf("curse.maven:placebo-283644:5098182")
 
-    implementation fg.deobf("curse.maven:apotheosis-313970:5180227")
-    implementation fg.deobf("curse.maven:apothic-curios-950712:5108911")
+    implementation fg.deobf("curse.maven:apothic-attributes-898963:5209162")
+    implementation fg.deobf("curse.maven:apotheosis-313970:5209354")
+    implementation fg.deobf("curse.maven:apothic-curios-950712:5108914")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
